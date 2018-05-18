@@ -38,14 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_POINTS'						=> 'Ultimate Points',
-	'ACP_POINTS_BANK_TITLE'				=> 'Bank Instellingen',
-	'ACP_POINTS_FORUM_TITLE'			=> 'Forum Punten Instellingen',
-	'ACP_POINTS_INDEX_TITLE'			=> 'Punten Instellingen',
-	'ACP_POINTS_LOTTERY_TITLE'			=> 'Lotto Instellingen',
-	'ACP_POINTS_ROBBERY_TITLE'			=> 'Overval Instellingen',
-	'ACP_POINTS_USERGUIDE_TITLE'		=> 'Gebruikersgids',
-
 	'BANK_ACCOUNT_OPENING'				=> 'Open een account',
 	'BANK_ACCOUNT_OPENED'				=> 'Opende een bank account op',
 	'BANK_ACTIONS'						=> 'Handelingen',
@@ -221,10 +213,8 @@ $lang = array_merge($lang, array(
 		1 => '%d inzending',
 		2 => '%d inzendingen',
 	),
-	'POINTS_LIST'						=> 'UP Lijst',
 	'POINTS_LIST_DISABLE'				=> 'Ultimate Points lijst uitgeschakeld',
 	'POINTS_LIST_NO_USER'				=> 'Geen gebruikers met punten',
-	'POINTS_LIST_TOTAL'					=> 'Ultimate Points Lijst',
 	'POINTS_LIST_USER'					=> '1 gebruiker',
 	'POINTS_LIST_USERS'					=> '%s gebruikers',
 	'POINTS_LOG_TOTAL'					=> 'Totaal',
