@@ -38,6 +38,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
+	'ACP_POINTS'						=> 'Bekijkt Ultimate Points',
 	'BANK_ACCOUNT_OPENING'				=> 'Open een account',
 	'BANK_ACCOUNT_OPENED'				=> 'Opende een bank account op',
 	'BANK_ACTIONS'						=> 'Handelingen',
@@ -176,6 +177,8 @@ $lang = array_merge($lang, array(
 	'LOTTERY_WINNINGS'					=> 'Gewonnen bedrag',
 	'LOTTERY_WON'						=> 'Gewonnen door',
 	'LOTTERY_WINNER_INDEX'				=> 'De laatste lotto winnaar: %1$s',
+	'LOTTERY_MCHAT_PURCHASE'			=> 'Heeft met succes [b]%2$s %3$s[/b] tickets gekocht :D',
+	'LOTTERY_MCHAT_WINNER'				=> 'Won net [b]%2$s[/b] in de [b]%3$s[/b] :o',
 
 	'MAIN_BANK_HAVE'					=> 'Op je bank account heb je een extra %1$s %2$s.',
 	'MAIN_HELLO_USERNAME'				=> 'Hallo %1$s !',
@@ -267,12 +270,15 @@ $lang = array_merge($lang, array(
 	'ROBBERY_TO_MUCH_FROM_USER'			=> 'Je probeert meer te stelen dan dat deze gebruiker heeft.',
 	'ROBBERY_USER'						=> '[Start Overval]',
 	'ROBBERY_TO_NAME'					=> 'Je wil enkele <strong>%2$s</strong> stelen van <strong>%1$s</strong>',
+	'ROBBERY_MCHAT_FAIL'				=> '%1$s wil [b]%2$s %3$s[/b] van mij stelen maar heeft gefaald! :lol:',
+	'ROBBERY_MCHAT_GOOD'				=> '%1$s Heeft me met succes beroofd van [b]%2$s %3$s[/b] :o',
 
 	'TRANSFER_AMOUNTS'					=> 'Bedrag',
 	'TRANSFER_SET_USERNAMES'			=> 'Namen van de gebruikers die je een donatie gedaan hebben!',
 	'TRANSFER_DATE'						=> 'Overschrijving ontvangen op',
 	'TRANSFER_RECEIVED_DISABLED'		=> 'Het overschrijving systeem is uitgeschakeld',
 	'TRANSFER_RECEIVED'					=> '%1$s ontvangen',
+	'TRANSFER_MCHAT_GOOD'				=> '%1$s heeft me met succes gedoneerd [b]%2$s %3$s[/b] :D',
 
 	'TIME_DAY'							=> 'dag',
 	'TIME_DAYS'							=> 'dagen',
